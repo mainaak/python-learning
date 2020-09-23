@@ -1,0 +1,11 @@
+# Some string methods
+random_string = input("Enter a random string for testing purposes:\n")
+print("replace(\"Random\", \"Excellent\")\t" + random_string.replace("Random", "Excellent"))
+print("lower()\t\t\t\t\t\t" + random_string.lower())
+print("random_string[8]\t\t\t\t" + random_string[8])
+print("upper()\t\t\t\t\t\t\t" + random_string.upper())
+print("capitalize()\t\t\t\t\t" + random_string.capitalize())
+print("find(\"Random\")\t\t\t\t\t" + str(random_string.find("Random")))
+print("index(\"Random\")\t\t\t\t\t" + str(random_string.index("Random")))
+print("endswith(\"ing\")\t\t\t\t\t" + str(random_string.endswith("ing")))
+print("len(random_string)\t\t\t\t" + str(len(random_string)))
